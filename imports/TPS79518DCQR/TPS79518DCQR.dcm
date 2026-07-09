@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS79518DCQR
+D Ultralow-Noise, High-PSRR, Fast, RF, 500-mA Low-Dropout Linear Regulators
+K
+F http://www.ti.com/lit/gpn/tps795
+$ENDCMP
+#
+#End Doc Library

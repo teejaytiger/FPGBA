@@ -1,0 +1,165 @@
+(footprint "LPS4018"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "L**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e9cf351a-d078-4260-ad3e-ab7563063ca6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LPS4018"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c0a5a548-87b7-4f9a-bb97-2bfadf2ac200")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.com/datasheet/3/995/1/lps4018.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "071db505-28fa-48f8-9818-f9af47bfdf53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Shielded Power Inductors – LPS4018"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd86e4d7-b97e-451e-9fa0-d63b555c45b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.3 -2)
+		(end -2.3 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b7f1e6c-9f3c-4a34-80b5-a7342e4aadfb")
+	)
+	(fp_line
+		(start -2.3 -2)
+		(end 2.3 -2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a5230455-7ee6-436d-ba07-4a07716bde9d")
+	)
+	(fp_line
+		(start -2.3 2)
+		(end 2 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c1a02a1-968a-4060-83a3-7ce34648d4fb")
+	)
+	(fp_line
+		(start 2.3 -2)
+		(end 2.3 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a4486e4d-5c2f-4ec9-a67c-e6a22d1d7ff3")
+	)
+	(fp_line
+		(start 2.3 2)
+		(end 2 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b266860d-da65-4f90-a5ee-290b0da8e206")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "869e5a43-3208-403a-858e-997b8de803a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -1.8 0.03 180)
+		(size 0.85685 0.85685)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.600289 0.582156) (xy -0.600289 -0.5) (xy -1.161191 -1.060902) (xy -1.161191 -1.970201) (xy -1.149259 -1.982133)
+					(xy -0.109578 -1.982133) (xy 0.469711 -1.402844) (xy 0.469711 1.46) (xy -0.119578 2.049289) (xy -1.145289 2.049289)
+					(xy -1.151 2.043578) (xy -1.151 1.132867)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "e37b36ba-6b75-4b48-9e39-e9048658790f")
+	)
+	(pad "2" smd custom
+		(at 1.8 0)
+		(size 0.85685 0.85685)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.57 0.548578) (xy -0.57 -0.533578) (xy -1.130902 -1.09448) (xy -1.130902 -2.003779) (xy -1.11897 -2.015711)
+					(xy -0.079289 -2.015711) (xy 0.5 -1.436422) (xy 0.5 1.426422) (xy -0.089289 2.015711) (xy -1.115 2.015711)
+					(xy -1.120711 2.01) (xy -1.120711 1.099289)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "66045440-c347-4d0a-8040-3c6f8fea22e6")
+	)
+	(embedded_fonts no)
+)

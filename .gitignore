@@ -1,0 +1,52 @@
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# macOS files
+.DS_Store
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+*.zip
+fp-info-cache
+sym-lib-table
+fp-lib-table
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+# Gerber files
+*.gbr
+*.gbrjob
+*.pos
+
+# Drill files
+*.drl
+
+
+lm3880.pdf
+lp5996.pdf
+tlv755p.pdf
+tps7b84-q1.pdf
+tps763.pdf
+tps778.pdf
+tps795.pdf
