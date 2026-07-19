@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XC7S50-L1CSGA324I
+D Spartan-7 Field Programmable Gate Array (FPGA) IC 210 2764800 52160 324-LFBGA, CSPBGA Voltage - Supply  0.92V ~ 0.98V Operating Temperature -40C ~ 100C (TJ)
+K
+F https://docs.amd.com/viewer/book-attachment/oVHz~1I6rgqFNP8477hHlQ/nxnq2uhvBjJq8oDc4p~flg-oVHz~1I6rgqFNP8477hHlQ
+$ENDCMP
+#
+#End Doc Library

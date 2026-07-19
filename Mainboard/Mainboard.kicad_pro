@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.1,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
-          "min_thickness": 0.1,
+          "min_thickness": 0.25,
           "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -677,7 +677,7 @@
         "uuid": "53a66bf0-ca24-4129-bc39-ed3123c0a797"
       }
     ],
-    "used_designators": "U1-7,L1-2,#PWR1-29,IC1-2,R1-7,C1-17,Q1,PS1-2,BT1,J1",
+    "used_designators": "U1-7,L1-3,#PWR1-47,IC1-5,R1-10,C1-18,Q1,PS1-2,BT1,J1-2,LS1,JP1",
     "variants": []
   },
   "sheets": [
@@ -692,6 +692,18 @@
     [
       "dd65c5e9-e122-4657-a13a-8c5283872e07",
       "FPGBA Charging"
+    ],
+    [
+      "07ea1063-2118-4acf-bd8f-1aab52d37869",
+      "Spartan 7"
+    ],
+    [
+      "f9715136-4e92-41fd-b8f6-479c2731558f",
+      "Screen"
+    ],
+    [
+      "1dd1fa78-d83b-40f1-953d-2adb748a359c",
+      "speaker"
     ]
   ],
   "text_variables": {},
