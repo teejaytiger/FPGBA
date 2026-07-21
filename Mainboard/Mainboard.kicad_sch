@@ -98,6 +98,52 @@
 		)
 	)
 	(sheet
+		(at 142.24 81.28)
+		(size 34.29 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7c90c4f1-23df-443f-9105-39a04bc74726")
+		(property "Sheetname" "JTAG + QSPI"
+			(at 142.24 80.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jtag_qspi.kicad_sch"
+			(at 142.24 104.7246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mainboard"
+				(path "/53a66bf0-ca24-4129-bc39-ed3123c0a797"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 85.09 36.83)
 		(size 34.29 26.67)
 		(exclude_from_sim no)

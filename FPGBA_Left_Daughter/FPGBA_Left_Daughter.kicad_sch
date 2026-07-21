@@ -5,6 +5,266 @@
 	(uuid "31c91ba5-5177-479d-831c-2cb7d64adb3b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "FFC_Connector_10pin_1"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U1"
+				(at 5.08 -1.9049 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-10S-0.5SH_1x10-1MP_P0.50mm_Horizontal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FFC_Connector_10pin_1_0_1"
+				(rectangle
+					(start -3.81 11.43)
+					(end 3.81 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FFC_Connector_10pin_1_1_1"
+				(pin input line
+					(at -3.81 8.89 0)
+					(length 2.54)
+					(name "P6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 6.35 0)
+					(length 2.54)
+					(name "P9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 3.81 0)
+					(length 2.54)
+					(name "P5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "P7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -3.81 0)
+					(length 2.54)
+					(name "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -6.35 0)
+					(length 2.54)
+					(name "P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -8.89 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -11.43 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -13.97 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -284,275 +544,18 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "symbol_library:FFC_Connector_10pin"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U1"
-				(at 5.08 -1.9049 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_FFC-FPC:Molex_54548-1071_1x10-1MP_P0.5mm_Horizontal"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FFC_Connector_10pin_0_1"
-				(rectangle
-					(start -3.81 11.43)
-					(end 3.81 -15.24)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FFC_Connector_10pin_1_1"
-				(pin input line
-					(at -3.81 8.89 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -3.81 6.35 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -3.81 3.81 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -3.81 1.27 0)
-					(length 2.54)
-					(name "P4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -3.81 -1.27 0)
-					(length 2.54)
-					(name "P2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -3.81 -3.81 0)
-					(length 2.54)
-					(name "P3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -3.81 -6.35 0)
-					(length 2.54)
-					(name "P7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -3.81 -8.89 0)
-					(length 2.54)
-					(name "P5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -3.81 -11.43 0)
-					(length 2.54)
-					(name "P9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -3.81 -13.97 0)
-					(length 2.54)
-					(name "P6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
-		(at 119.38 64.77)
+		(at 113.03 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1f8c1061-c417-454b-b676-71cc8a39bc78")
+		(uuid "658b5585-682a-4ea5-b1aa-7c46f49d4d05")
 	)
 	(junction
-		(at 119.38 67.31)
+		(at 113.03 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "59037aab-0a1c-4cf8-a4da-9ef594a19626")
+		(uuid "c512d58d-3a40-4272-b863-4a1b32285c20")
 	)
 	(wire
 		(pts
@@ -586,6 +589,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 57.15) (xy 113.03 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29d09a86-d879-4a2d-a691-df704003c107")
+	)
+	(wire
+		(pts
 			(xy 92.71 57.15) (xy 92.71 60.96)
 		)
 		(stroke
@@ -606,7 +619,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 69.85) (xy 121.92 69.85)
+			(xy 113.03 41.91) (xy 115.57 41.91)
 		)
 		(stroke
 			(width 0)
@@ -636,7 +649,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 72.39) (xy 121.92 72.39)
+			(xy 113.03 44.45) (xy 115.57 44.45)
 		)
 		(stroke
 			(width 0)
@@ -646,7 +659,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 74.93) (xy 121.92 74.93)
+			(xy 113.03 46.99) (xy 115.57 46.99)
 		)
 		(stroke
 			(width 0)
@@ -656,23 +669,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 64.77) (xy 121.92 64.77)
+			(xy 113.03 36.83) (xy 115.57 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9c44677a-e616-4855-9ada-904ec38172d5")
-	)
-	(wire
-		(pts
-			(xy 119.38 67.31) (xy 119.38 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acaf1062-56d4-4902-a462-5d456e6aec22")
 	)
 	(wire
 		(pts
@@ -686,7 +689,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 77.47) (xy 121.92 77.47)
+			(xy 113.03 49.53) (xy 115.57 49.53)
 		)
 		(stroke
 			(width 0)
@@ -696,7 +699,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 64.77) (xy 119.38 64.77)
+			(xy 106.68 54.61) (xy 113.03 54.61)
 		)
 		(stroke
 			(width 0)
@@ -706,7 +709,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 82.55) (xy 121.92 82.55)
+			(xy 113.03 54.61) (xy 115.57 54.61)
 		)
 		(stroke
 			(width 0)
@@ -736,7 +739,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 67.31) (xy 121.92 67.31)
+			(xy 113.03 39.37) (xy 115.57 39.37)
 		)
 		(stroke
 			(width 0)
@@ -756,7 +759,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 87.63) (xy 121.92 87.63)
+			(xy 113.03 59.69) (xy 115.57 59.69)
 		)
 		(stroke
 			(width 0)
@@ -766,7 +769,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 64.77) (xy 119.38 67.31)
+			(xy 113.03 54.61) (xy 113.03 57.15)
 		)
 		(stroke
 			(width 0)
@@ -776,7 +779,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 85.09) (xy 121.92 85.09)
+			(xy 113.03 57.15) (xy 115.57 57.15)
 		)
 		(stroke
 			(width 0)
@@ -806,7 +809,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 80.01) (xy 121.92 80.01)
+			(xy 113.03 52.07) (xy 115.57 52.07)
 		)
 		(stroke
 			(width 0)
@@ -859,7 +862,7 @@
 	)
 	(hierarchical_label "P2"
 		(shape input)
-		(at 119.38 74.93 180)
+		(at 113.03 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -870,7 +873,7 @@
 	)
 	(hierarchical_label "P6"
 		(shape input)
-		(at 119.38 87.63 180)
+		(at 113.03 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -881,7 +884,7 @@
 	)
 	(hierarchical_label "P9"
 		(shape input)
-		(at 119.38 85.09 180)
+		(at 113.03 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -892,7 +895,7 @@
 	)
 	(hierarchical_label "P4"
 		(shape input)
-		(at 119.38 72.39 180)
+		(at 113.03 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -903,7 +906,7 @@
 	)
 	(hierarchical_label "P7"
 		(shape input)
-		(at 119.38 80.01 180)
+		(at 113.03 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -936,7 +939,7 @@
 	)
 	(hierarchical_label "P5"
 		(shape input)
-		(at 119.38 82.55 180)
+		(at 113.03 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -947,7 +950,7 @@
 	)
 	(hierarchical_label "P3"
 		(shape input)
-		(at 119.38 77.47 180)
+		(at 113.03 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -980,7 +983,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 64.77 0)
+		(at 106.68 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -991,7 +994,7 @@
 		(fields_autoplaced yes)
 		(uuid "07065884-b1c4-4822-b663-5a6bff02adf4")
 		(property "Reference" "#PWR08"
-			(at 113.03 71.12 0)
+			(at 106.68 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1002,7 +1005,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 69.85 0)
+			(at 106.68 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1012,7 +1015,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 64.77 0)
+			(at 106.68 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1023,7 +1026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 64.77 0)
+			(at 106.68 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1034,7 +1037,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 64.77 0)
+			(at 106.68 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1057,8 +1060,9 @@
 		)
 	)
 	(symbol
+		(lib_name "FFC_Connector_10pin_1")
 		(lib_id "symbol_library:FFC_Connector_10pin")
-		(at 125.73 73.66 0)
+		(at 119.38 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1069,7 +1073,7 @@
 		(fields_autoplaced yes)
 		(uuid "1421c90c-2be5-4f19-8352-0ff764adce8b")
 		(property "Reference" "U1"
-			(at 130.81 75.5649 0)
+			(at 124.46 47.6249 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1080,7 +1084,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 125.73 73.66 0)
+			(at 119.38 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1089,8 +1093,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:Molex_54548-1071_1x10-1MP_P0.5mm_Horizontal"
-			(at 125.73 73.66 0)
+		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-10S-0.5SH_1x10-1MP_P0.50mm_Horizontal"
+			(at 119.38 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1101,7 +1105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 73.66 0)
+			(at 119.38 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1112,7 +1116,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 73.66 0)
+			(at 119.38 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
