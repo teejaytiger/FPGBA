@@ -677,7 +677,7 @@
         "uuid": "53a66bf0-ca24-4129-bc39-ed3123c0a797"
       }
     ],
-    "used_designators": "U1-7,L1-3,#PWR1-47,IC1-5,R1-16,C1-18,Q1,PS1-2,BT1,J1-3,LS1,JP1",
+    "used_designators": "U1-7,L1-3,#PWR1-49,IC1-6,R1-16,C1-18,Q1,PS1-2,BT1,J1-3,LS1,JP1",
     "variants": []
   },
   "sheets": [
@@ -708,6 +708,10 @@
     [
       "7c90c4f1-23df-443f-9105-39a04bc74726",
       "JTAG + QSPI"
+    ],
+    [
+      "0f07a3ce-fa8b-44fd-b963-5f6ffc9374f1",
+      "FPGA"
     ]
   ],
   "text_variables": {},
