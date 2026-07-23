@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 143.51 36.83)
+		(at 182.88 35.56)
 		(size 36.83 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "0f07a3ce-fa8b-44fd-b963-5f6ffc9374f1")
 		(property "Sheetname" "FPGA"
-			(at 143.51 36.1184 0)
+			(at 182.88 34.8484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga_sch.kicad_sch"
-			(at 143.51 62.8146 0)
+			(at 182.88 61.5446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -231,6 +231,52 @@
 			(project "Mainboard"
 				(path "/53a66bf0-ca24-4129-bc39-ed3123c0a797"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 81.28)
+		(size 34.29 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f9715136-4e92-41fd-b8f6-479c2731558f")
+		(property "Sheetname" "Screen"
+			(at 30.48 80.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "screen.kicad_sch"
+			(at 30.48 104.7246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mainboard"
+				(path "/53a66bf0-ca24-4129-bc39-ed3123c0a797"
+					(page "5")
 				)
 			)
 		)
