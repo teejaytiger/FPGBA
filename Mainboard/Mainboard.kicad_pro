@@ -78,6 +78,10 @@
       ],
       "drc_exclusions": [
         [
+          "courtyards_overlap|97275000|67525000|0adf1385-99c4-4432-b4a9-ecda5b374425|b6f0bccf-76e9-4536-94d9-2c566ab45b71",
+          "Installed components do not impact clearances"
+        ],
+        [
           "lib_footprint_issues|130705000|77240000|d8cf4108-8865-4078-bd24-c7c17e8deba2|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -102,127 +106,127 @@
           ""
         ],
         [
-          "unconnected_items|103950000|92390000|F.Cu|4|827d8b73-bacf-41ec-9a9c-428665862d6e|6ee7582e-5868-47bd-81d4-ec9352984083",
+          "pth_inside_courtyard|101420000|66610000|653cfc24-1522-49ee-b686-b5c11086a059|604214fd-b010-439f-aa22-4b1529403e0e",
+          "Installed components do not impact clearances"
+        ],
+        [
+          "track_dangling|125700000|65120001|531ce859-fe84-4c14-a978-ae3f06e93d93|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "unconnected_items|104750000|90590000|F.Cu|4|23192eb6-74ba-40f2-a505-0318ab877a73|3719de7a-7e49-4072-ba54-b683a314741b",
+          "track_dangling|128250000|96750000|c1636e1c-8eae-46a5-bfd5-bf1bd7195426|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "unconnected_items|105550000|92390000|F.Cu|4|aa96643c-00be-4a49-8c03-04c185cf746a|e996f748-5761-43ff-8b39-b210af6bcf9b",
+          "track_dangling|132400000|93250000|069687d0-ec4a-41c2-88eb-d09fbae2d1b9|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "unconnected_items|106350000|90590000|F.Cu|4|7d9ec207-c296-4c27-8854-5d00c0929134|08ea20c2-3dbf-4d23-8aec-700b0c4d7ccc",
+          "unconnected_items|121060624|90160624|F.Cu|4|9df2247d-dace-4184-8660-1f5bbaccd699|6962bc63-92d9-4819-8416-ae0bb8cb6727",
           ""
         ],
         [
-          "unconnected_items|107700000|90590000|F.Cu|4|5ffb2be8-bc85-4642-ad59-d8c450c44497|7c19394f-169d-41c2-8cae-3e11575a2281",
+          "unconnected_items|121400000|91200000|F.Cu|4|b8aad2a9-763f-44ab-8f46-7f1d8dab9711|d0f9cdae-461b-47c2-9f10-147c0a127330",
           ""
         ],
         [
-          "unconnected_items|108500000|92390000|F.Cu|4|1370107a-a7bc-4b6d-91b8-afdac0064857|b02034e2-21e7-4449-93b6-5d779e47f682",
+          "unconnected_items|121860624|89360624|F.Cu|4|a62e22c8-8ed5-4daf-b4a7-e6177482991d|50326834-813e-44dc-845a-fb3e35569de8",
           ""
         ],
         [
-          "unconnected_items|109300000|90590000|F.Cu|4|45c3afb3-7c80-44cd-b38b-0d387fa6ec18|22b364aa-14be-4903-97bd-4575d8b69cba",
+          "unconnected_items|122139376|90439376|F.Cu|4|adf5a3bb-0807-4e48-b0ce-57aeb527c2ef|67972585-6b16-48b3-b5e1-dd0f9a1dcdd7",
           ""
         ],
         [
-          "unconnected_items|109300000|92390000|F.Cu|4|f87fba3b-bc54-4e16-ba71-983d9438be71|b1ac4f7d-2699-4e83-9a29-ce5c5310f89e",
+          "unconnected_items|125700000|66609999|F.Cu|4|559630bf-c19f-4cf4-8c9a-145965c3d1a2|a2183f86-6c2e-4d8d-a5b5-ff02add331ba",
           ""
         ],
         [
-          "unconnected_items|110100000|92390000|F.Cu|4|e24ef7ef-0be1-4774-9dff-5580642b7e8c|a3a87a7d-54ed-4bac-bb55-f2da50457883",
+          "unconnected_items|126760624|95060624|F.Cu|4|ea7144ef-3ec8-45d1-addb-3fd3c990ee32|388de08a-bf3c-419e-bf3a-40bcc0d27660",
           ""
         ],
         [
-          "unconnected_items|111450000|90600000|F.Cu|4|786d5a35-fe4b-4de3-8f58-61c7c1187bd3|6b7e75b6-e044-4bed-8163-bb819478473e",
+          "unconnected_items|127000000|90900000|F.Cu|4|3cbe791b-21a9-4172-87c3-78e703aa63ac|931b0fa3-584b-4d9d-b2d3-ce73d359d12d",
           ""
         ],
         [
-          "unconnected_items|112240000|92390000|F.Cu|4|9f8d24b2-342e-4321-85ff-595577f2dbdd|40f60b3b-a323-4658-a273-d2f42d64df19",
+          "unconnected_items|127000000|92000000|F.Cu|4|fb9fb4c1-0562-41d7-b5fa-08d31b9a4a34|d94b1d51-d2af-44f7-9841-2f4ad7c51f11",
           ""
         ],
         [
-          "unconnected_items|113050000|90600000|F.Cu|4|86d5c982-564b-4e17-a814-f2a228e585b0|aa4e2a58-8472-4092-b0de-ac738c2adbd6",
+          "unconnected_items|128190001|90400000|F.Cu|4|a763ae2a-5d8f-4acd-ae2d-298c372b0470|32c1aed8-7f53-4e44-9136-45cf6cfa52a1",
           ""
         ],
         [
-          "unconnected_items|113840000|92390000|F.Cu|4|b50abb93-ac3b-4950-8f7b-0c773cb186b0|808ff13d-4ae5-41ec-b872-e73a88652aee",
+          "unconnected_items|128190001|91500000|F.Cu|4|c2d11f1e-d790-4f0e-9cc3-aff85a296748|9a374f9e-a7b1-4ab4-a83f-a74db3d520f5",
           ""
         ],
         [
-          "unconnected_items|115200000|92400000|F.Cu|4|f9acdb32-3078-4153-9f09-a487f6a49019|a47f9738-0120-4966-9250-d98607635cd9",
+          "unconnected_items|129860624|94860624|F.Cu|4|48a10c90-62a4-4fd8-863c-7bacca47d4c7|9b164575-db5e-466a-9ae3-54d42547454c",
           ""
         ],
         [
-          "unconnected_items|115990000|90600000|F.Cu|4|45a94b70-9867-4f64-9867-168e8c1e7841|01c63fc3-287c-4cce-b164-fa1215fd14ea",
+          "unconnected_items|132760624|94900000|F.Cu|4|b897d062-a431-4d7e-b025-0c0fc3b88bf2|4bda273a-cd4a-409c-9b30-993ff4df9788",
           ""
         ],
         [
-          "unconnected_items|116790000|90600000|F.Cu|4|0452b316-83c4-4e4c-9cb5-fe363c5eeaab|67cdfc18-a3e3-4c20-b75a-a91aaabc9cb6",
+          "unconnected_items|134590001|86800000|F.Cu|4|28c8c519-5425-47a8-a3e2-8bf27b49148f|d713134d-991a-4fcc-b67c-c8c88cf52825",
           ""
         ],
         [
-          "unconnected_items|117600000|90600000|F.Cu|4|c5c38a7b-da6b-40c4-84bb-3f6628be0ea6|28107615-b236-48c0-9bec-5e625336fa61",
+          "unconnected_items|134590001|87800000|F.Cu|4|41b7e1e8-65d1-4629-9014-d5c2cd08703d|2d180c78-aae3-4fde-bbdc-5602b3b51191",
           ""
         ],
         [
-          "unconnected_items|118950000|92400000|F.Cu|4|a9c2edb1-49dc-47ad-ae6f-9cfd375517cb|02d1ae4c-75d2-4ee5-85d8-5606baadf8bf",
+          "unconnected_items|140178752|84721248|F.Cu|4|d303ea4a-56de-47c1-b463-8d7a83c3a657|aa682da8-ec39-4dcd-8b0b-80d36b9a90db",
           ""
         ],
         [
-          "unconnected_items|119750000|92400000|F.Cu|4|c5f6df89-7270-4af0-90c0-b0872c596459|51007e1e-8079-4034-a211-7eed8a2221cb",
+          "unconnected_items|141660624|84739376|F.Cu|4|7c630f1d-f7cf-4761-a725-cd297f152dff|c30ee8d4-9788-45a0-992d-7e5b3d4601d3",
           ""
         ],
         [
-          "unconnected_items|120540000|90610000|F.Cu|4|0bb47958-eaac-4ac4-9383-368faff3ad2a|27e10ce4-e575-413d-9e53-68b1b0ce1758",
+          "unconnected_items|141939376|83660624|F.Cu|4|cdc15bfd-7330-4a04-b348-8dbcfc9b5657|83815101-b1cb-48f9-af14-a2a70c553c19",
           ""
         ],
         [
-          "unconnected_items|121340000|90610000|F.Cu|4|cc158d90-8c0f-41e3-b8d2-dd88829f6bdd|c0717f6d-2e1b-43fe-9fa2-826668c3ddc6",
+          "unconnected_items|142080002|88600000|F.Cu|4|8fc42523-bac3-4fd1-9e54-f296160cefd9|2c9bb2de-8340-4bad-8c53-fa7fe0c986a5",
           ""
         ],
         [
-          "unconnected_items|122700000|92400000|F.Cu|4|6eadaac7-c54a-46cf-bd10-e56c1bb388f9|58661947-3e8e-422c-827e-9c5795496363",
+          "unconnected_items|143100000|89600000|F.Cu|4|b7f9eba8-a5c3-4b14-8bee-5e4ccddff2a9|cdf76156-ac0e-4f0c-8cc9-222875c9a4eb",
           ""
         ],
         [
-          "unconnected_items|123500000|92400000|F.Cu|4|c39af41e-f553-48d4-bf57-e9352f6f572b|f967785e-877a-4e03-b22b-e3ccbebfbfc2",
+          "unconnected_items|143460624|83739376|F.Cu|4|69709429-6b6a-4c9c-b53e-8f621981fdbb|db1bf2f3-5038-4131-b49c-6ed1f9faf4d7",
           ""
         ],
         [
-          "unconnected_items|124300000|92400000|F.Cu|4|2186ae18-2158-489e-9be0-7b52b353aa23|5ea177f8-c8bf-4009-b5b2-7740bfceaa56",
+          "unconnected_items|144080002|90200000|F.Cu|4|24c497d1-1ec8-4d4e-816f-de794b4d6286|95ea6ce4-3374-48ff-8d83-c82ba934e97f",
           ""
         ],
         [
-          "unconnected_items|125100000|90600000|F.Cu|4|84847a6b-04f0-4bd9-936a-2f5f61b4d1aa|29dfabd4-1093-4153-bc5e-c803dd644c46",
+          "unconnected_items|146000000|84500000|F.Cu|4|a48f2a38-12ab-4c94-a69e-4525569053b5|2c6084c0-c54b-4af5-80af-f8a8125986ff",
           ""
         ],
         [
-          "unconnected_items|126450000|90600000|F.Cu|4|d49e407f-ce6a-4406-9a52-d4bf57e1c471|0376c2c5-78dd-4024-8209-abede2c8c3ab",
+          "unconnected_items|146600000|83500000|F.Cu|4|68fb915c-2b2b-4831-9f24-232c95c62041|40296dd4-31e2-433d-8b68-756738f0d1e3",
           ""
         ],
         [
-          "unconnected_items|127250000|92400000|F.Cu|4|5861e86b-8243-41d8-9634-279634bf95d2|955a146f-53bf-4589-a67a-fd21e4cc5c97",
+          "unconnected_items|148380002|83500000|F.Cu|4|ec462d11-c0e4-4f37-afd7-4b18412f0626|c10f0b22-3358-4c1c-9f9c-bb5767768d75",
           ""
         ],
         [
-          "unconnected_items|128050000|90600000|F.Cu|4|41fddff4-c320-4796-a2c7-714aa8be8608|a20c9410-b7c6-4c21-a9f0-2d60059b857f",
+          "unconnected_items|149400000|84500000|F.Cu|4|0e892b53-fe87-4103-8c06-bbf9d1d657f8|2451d0b8-aefc-483a-a765-3b517516f2d0",
           ""
         ],
         [
-          "unconnected_items|128850000|92400000|F.Cu|4|13dab0db-6a3b-463d-9381-594b5f1cf20a|d33e3bb8-64eb-4dbc-ba4f-1edc1cea5772",
+          "unconnected_items|149409999|85500000|F.Cu|4|ff55def2-eed4-49ce-a763-02c3e581a8b6|7acbdae2-1511-421d-bc7a-4ae4893b0c6a",
           ""
         ],
         [
-          "unconnected_items|131975000|90650000|F.Cu|4|e28af9fd-41c8-4f83-8551-997d4c998b70|b978880a-f4d3-4c91-9fc6-025b972bd25e",
-          ""
-        ],
-        [
-          "unconnected_items|133625000|92100000|F.Cu|4|540c5135-ff37-4dad-8647-bd58799c8ccd|917741e5-e41f-4720-a44a-3ef4dd9bf9dd",
+          "unconnected_items|149409999|85500000|F.Cu|4|ff55def2-eed4-49ce-a763-02c3e581a8b6|c9169df1-d213-49e5-b944-31f45591742d",
           ""
         ]
       ],
