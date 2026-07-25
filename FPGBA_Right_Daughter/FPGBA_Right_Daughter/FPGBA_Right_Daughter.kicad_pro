@@ -69,8 +69,27 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "clearance|155499686|77277384|2f35130c-edc0-49a7-920f-d9b466866db2|bbd18063-941c-4104-aa23-abaed6c01772",
+          ""
+        ],
+        [
+          "clearance|169681571|72781250|1853d39e-6ed9-47c0-b553-c68ab629df6b|c807d409-7821-4c78-b340-c7d1b0966032",
+          ""
+        ],
+        [
+          "unconnected_items|151321248|103378752|F.Cu|4|9f33e3f7-49c1-49d8-aa88-d06a1b0858ba|45349629-f691-47d9-a9d1-46f4af6a8107",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -203,7 +222,13 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.1,
+        0.15,
+        0.25,
+        0.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +255,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -488,7 +518,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "FPGBA.kicad_pro",
+    "filename": "FPGBA_Right_Daughter.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -636,24 +666,24 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "FPGBA_Right_Daughter",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "FPGBA.kicad_sch",
+        "filename": "FPGBA_Right_Daughter.kicad_sch",
         "name": "Root",
-        "uuid": "854281b5-86c5-46c7-9e3b-7f45f9f855e1"
+        "uuid": "28889780-b062-4600-be36-8154d306e974"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R1-3,SWP2-7,SWP9-10,J2,J5,#PWR1-9,SW1-3,C1-3",
     "variants": []
   },
   "sheets": [
     [
-      "854281b5-86c5-46c7-9e3b-7f45f9f855e1",
+      "28889780-b062-4600-be36-8154d306e974",
       "Root"
     ]
   ],
